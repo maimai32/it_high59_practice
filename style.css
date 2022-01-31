@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+}
+
+header{
+  background: black;
+  padding: 30px;
+}
+header h1{
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 36px;
+}
+main{
+  text-align: center;
+}
+main #stadium{
+  text-align: center;
+}
+main #stadium img{
+  width: 100%;
+}
+main #about{
+  padding: 30px;
+}
+main #about h2{
+  color: black;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+main #about p{
+  font-size: 16px;
+}
+main #profile{
+  padding: 30px;
+  background: black;
+}
+main #profile h2{
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+main #profile p{
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+}
+aside{
+  padding: 30px;
+  background: white;
+  text-align: center;
+}
+aside h2{
+  color: black;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+aside p{
+  font-size: 28px;
+}
+aside figure{
+  padding: 30px 10px;
+}
+aside figure img{
+width: 200px;
+}
+aside a{
+  padding: 10px 50px;
+  background: black;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+}
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (max-width:1024px){
+  header{
+    background: red;
+  }
+}
+@media screen and (max-width:768px){
+  header{
+    background: gold;
+  }
+  }
+@media screen and (max-width:480px){
+  header{
+  background: green;
+  }
+}
